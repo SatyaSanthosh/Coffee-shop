@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Corner</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <header class="navbar fixedNav">
+  <div class="brand">Coffee Corner</div>
+  <input type="checkbox" id="menubtn" class="menubtn">
+  <label for="menubtn" class="menuicon">&#9776;</label>
+  <div class="navlinks">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+  <section id="hero" class="hero">
+  <div class="heroContent">
+     <div class="heroBox">
+    <h1>Brewed with Passion</h1>
+    <p>Taste the perfect cup every morning</p>
+    <a href="#menu" class="heroBtn">View Menu</a>
+  </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="aboutContainer">
+    <div class="aboutImage">
+      <img src="/images/interior.png" alt="Coffee Cup">
+    </div>
+    <div class="aboutText">
+      <h2>About Our Café</h2>
+      <p>
+        At Coffee Corner, every cup tells a story. We source our beans from the finest farms and roast them with care to bring out their natural flavors. Whether you’re starting your morning or taking a break, our café is the perfect place to relax and enjoy the art of coffee.
+      </p>
+      <a href="#menu" class="aboutBtn">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="menu">
+  <div class="menuContainer">
+    <h2>Our Menu</h2>
+    <h3 class="menuCategory">Coffee</h3>
+    <div class="menuGrid">
+      <div class="menuItem">
+        <img src="images/expresso.png" alt="Espresso">
+        <h4>Espresso</h4>
+        <p>₹120</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/latte.png" alt="Latte">
+        <h4>Latte</h4>
+        <p>₹150</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/cappuccino.png" alt="Cappuccino">
+        <h4>Cappuccino</h4>
+        <p>₹160</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/americano.png" alt="Americano">
+        <h4>Americano</h4>
+        <p>₹140</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/filtercoffee.png" alt="Filter Coffee">
+        <h4>Filter Coffee</h4>
+        <p>₹100</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/blackcoffee.png" alt="Black Coffee">
+        <h4>Black Coffee</h4>
+        <p>₹90</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/flatwhite.png" alt="Flat White">
+        <h4>Flat White</h4>
+        <p>₹170</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/macchiato.png" alt="Macchiato">
+        <h4>Macchiato</h4>
+        <p>₹160</p>
+      </div>
+    </div>
+    <h3 class="menuCategory">Snacks</h3>
+    <div class="menuGrid">
+      <div class="menuItem">
+        <img src="images/croissant.png" alt="Croissant">
+        <h4>Croissant</h4>
+        <p>₹80</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/vegsandwich.png" alt="Sandwich">
+        <h4>Veg Sandwich</h4>
+        <p>₹110</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/muffin.png" alt="Muffin">
+        <h4>Chocolate Muffin</h4>
+        <p>₹90</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/pastry.jpeg" alt="Pastry">
+        <h4>Pastry</h4>
+        <p>₹100</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/cookies.jpeg" alt="Cookies">
+        <h4>Cookies</h4>
+        <p>₹70</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/brownie.jpeg" alt="Brownie">
+        <h4>Brownie</h4>
+        <p>₹120</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/vegpuff.jpeg" alt="Puff">
+        <h4>Veg Puff</h4>
+        <p>₹60</p>
+      </div>
+      <div class="menuItem">
+        <img src="images/pancake.jpeg" alt="Pancake">
+        <h4>Pancake</h4>
+        <p>₹130</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+  <div class="container py-5">
+    <h2 class="section-title text-center mb-4">What Our Customers Say</h2>
+    <div id="testCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#testCarousel" data-bs-slide-to="1"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user2.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Emily Johnson</h5>
+                  <p class="ttext">"The taste, and the vibe — everything about Coffee Corner is just perfect."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user1.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Michael Carter</h5>
+                  <p class="ttext">"Best latte I’ve had in the city! Friendly staff and cozy atmosphere."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user3.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Olivia Thompson</h5>
+                  <p class="ttext">"Coffee Corner feels like home. Their cappuccino makes day better!"</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user6.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">James Anderson</h5>
+                  <p class="ttext">"Great place to relax or work. I love their cold brew and peaceful vibe!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user4.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Sophia Miller</h5>
+                  <p class="ttext">"The filter coffee is heavenly! Perfect blend of aroma and taste."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user7.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Ethan Davis</h5>
+                  <p class="ttext">"Peaceful place, lovely music, and amazing snacks to go with coffee."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user5.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Ava Wilson</h5>
+                  <p class="ttext">"Their pastries and mocha combo is my guilty pleasure every weekend."</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card tcard h-100">
+                <img src="images/user8.jpeg" class="rounded-circle timg mx-auto mt-3" alt="">
+                <div class="card-body text-center">
+                  <h5 class="tname">Mason Anderson</h5>
+                  <p class="ttext">"A must-visit for coffee lovers. Fantastic flavors and chill vibe!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Prev</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="galleryContainer">
+    <h2>Our Gallery</h2>
+    <div class="galleryGrid">
+      <div class="galleryItem"><img src="images/gallery1.jpeg" alt="Gallery 1"></div>
+      <div class="galleryItem"><img src="images/gallery2.jpeg" alt="Gallery 2"></div>
+      <div class="galleryItem"><img src="images/gallery3.jpeg" alt="Gallery 3"></div>
+      <div class="galleryItem"><img src="images/gallery4.jpeg" alt="Gallery 4"></div>
+      <div class="galleryItem"><img src="images/gallery5.jpeg" alt="Gallery 5"></div>
+      <div class="galleryItem"><img src="images/gallery6.jpeg" alt="Gallery 6"></div>
+      <div class="galleryItem"><img src="images/gallery7.jpeg" alt="Gallery 7"></div>
+      <div class="galleryItem"><img src="images/gallery8.jpeg" alt="Gallery 8"></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contactContainer">
+    <h2>Contact Us</h2>
+    <div class="contactContent">
+      <div class="contactInfo">
+      <h3>Visit Our Café</h3>
+        <p>245 Brew Avenue, Austin, TX 78701, USA</p>
+        <p><strong>Phone:</strong> +1 (512) 555-2489</p>
+        <p><strong>Email:</strong> hello@coffeebliss.com</p>
+      </div>
+      <form class="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
